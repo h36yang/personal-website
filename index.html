@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>Jack's Personal Website</title>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-animate.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-aria.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-messages.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.js"></script>
+    <script type="text/javascript" src="app/app.module.js"></script>
+    <script type="text/javascript" src="app/shared/app.route.js"></script>
+    <script type="text/javascript" src="app/shared/app.controller.js"></script>
+    <script type="text/javascript" src="app/shared/app.dataservice.js"></script>
+    <script type="text/javascript" src="app/shared/app.common.js"></script>
+    <script type="text/javascript" src="app/shared/app.components.js"></script>
+    <script type="text/javascript" src="app/components/about-me.component.js"></script>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body ng-controller="AppController as vm" ng-cloak>
+    <md-toolbar layout="row" class="md-tall" layout-align="center center">
+        <h1>Jack's Personal Website</h1>
+    </md-toolbar>
+
+    <md-content class="md-padding">
+        <md-nav-bar md-selected-nav-item="vm.currentNavItem" nav-bar-aria-label="navigation links">
+            <md-nav-item md-nav-href="#!/about" name="about-me">About Me</md-nav-item>
+            <md-nav-item md-nav-href="#!/skills" name="skills">Skills Summary</md-nav-item>
+            <md-nav-item md-nav-href="#!/work" name="work-exp">Work Experiences</md-nav-item>
+            <md-nav-item md-nav-href="#!/educations" name="educations">Educations &amp; Certifications</md-nav-item>
+            <md-nav-item md-nav-href="#!/other" name="other">Other Stuff</md-nav-item>
+        </md-nav-bar>
+
+        <ng-view></ng-view>
+    </md-content>
+</body>
+
+</html>
