@@ -26,9 +26,9 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: yarn --version
     - run: yarn install
-    - run: .\node_modules\.bin\ng --version
-    - run: .\node_modules\.bin\ng lint
-    - run: .\node_modules\.bin\ng build --prod
+    - run: ./node_modules/.bin/ng --version
+    - run: ./node_modules/.bin/ng lint
+    - run: ./node_modules/.bin/ng build --prod
     - name: Get Current Time
       uses: gerred/current-time@v1.0.0
       id: current-time
