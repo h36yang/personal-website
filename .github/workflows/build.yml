@@ -41,5 +41,6 @@ jobs:
       uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ secrets.GITPAGE_TOKEN }}
+        force: true
         repository: h36yang/h36yang.github.io
         directory: ./dist/personal-website
