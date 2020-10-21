@@ -1535,6 +1535,43 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fortawesome/angular-fontawesome@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "@fortawesome/angular-fontawesome@npm:0.7.0"
+  dependencies:
+    tslib: ^2.0.0
+  peerDependencies:
+    "@angular/core": ^10.0.0
+    "@fortawesome/fontawesome-svg-core": ^1.2.27
+  checksum: 0dfad50c64c8c1f65736cadb5ccbf529fbc012f81d814aa85ac41d4d9328d20a39f735e8e367ce53eb25c5db1092a894b1479b2bfbb64071d6817ca7d0556891
+  languageName: node
+  linkType: hard
+
+"@fortawesome/fontawesome-common-types@npm:^0.2.32":
+  version: 0.2.32
+  resolution: "@fortawesome/fontawesome-common-types@npm:0.2.32"
+  checksum: a3654c397d9fb62edb7a6070220d18f55ec1fbc16aec14ea0c4c425e626589fcde6534eb61346e145ef07922221514646923695d536d17d754b50dfe3ca66dc6
+  languageName: node
+  linkType: hard
+
+"@fortawesome/fontawesome-svg-core@npm:^1.2.32":
+  version: 1.2.32
+  resolution: "@fortawesome/fontawesome-svg-core@npm:1.2.32"
+  dependencies:
+    "@fortawesome/fontawesome-common-types": ^0.2.32
+  checksum: 0fd346935c42fbf37eaf19f2a0b7e5f5f6da0a922d9b44326b3db44602143334885ad0fed29c26ce56f5fd54616023655f8a1f0316c68161fd2779ce94756d4b
+  languageName: node
+  linkType: hard
+
+"@fortawesome/free-solid-svg-icons@npm:^5.15.1":
+  version: 5.15.1
+  resolution: "@fortawesome/free-solid-svg-icons@npm:5.15.1"
+  dependencies:
+    "@fortawesome/fontawesome-common-types": ^0.2.32
+  checksum: ca31ed2dbfcb9fb08c785f41768313ff6dd4570f1eca5cde8c3b2de6656fb58492c3b5474e2d9453d6e90214f6e4621d73bf50cf73c0bfc6b4257caaeea16860
+  languageName: node
+  linkType: hard
+
 "@istanbuljs/schema@npm:^0.1.2":
   version: 0.1.2
   resolution: "@istanbuljs/schema@npm:0.1.2"
@@ -7701,6 +7738,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"ngx-parallax@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "ngx-parallax@npm:4.0.0"
+  peerDependencies:
+    "@angular/core": ">=2.0.0"
+  checksum: 9765b834387954298ac8463fc37e6055c36746834fb4dd21882ca4cc43e599ecc09cebd9d1885ce7a755062cd93c962f1bb6341005319d17473cce5770d0338f
+  languageName: node
+  linkType: hard
+
 "nice-try@npm:^1.0.4":
   version: 1.0.5
   resolution: "nice-try@npm:1.0.5"
@@ -8542,6 +8588,9 @@ fsevents@~2.1.2:
     "@angular/platform-browser": ~10.1.6
     "@angular/platform-browser-dynamic": ~10.1.6
     "@angular/router": ~10.1.6
+    "@fortawesome/angular-fontawesome": ^0.7.0
+    "@fortawesome/fontawesome-svg-core": ^1.2.32
+    "@fortawesome/free-solid-svg-icons": ^5.15.1
     "@ng-bootstrap/ng-bootstrap": ^7.0.0
     "@thisissoon/angular-inviewport": ^4.2.2
     "@thisissoon/angular-scrollspy": ^2.2.0
@@ -8560,6 +8609,7 @@ fsevents@~2.1.2:
     karma-jasmine-html-reporter: ^1.5.0
     ngx-page-scroll: ^7.0.3
     ngx-page-scroll-core: ^7.0.3
+    ngx-parallax: ^4.0.0
     protractor: ~7.0.0
     rxjs: ~6.6.0
     ts-node: ~8.3.0

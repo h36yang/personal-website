@@ -1,3 +1,52 @@
 <header>
   <app-header></app-header>
 </header>
+
+<article class="container-fluid" (window:resize)="adjustHeight()">
+  <sn-scroll-spy-section id="top" class="row" for="nav-list">
+    <div parallax [config]="parallaxConfig" class="fill-screen bg-img-1 text-center text-justify"
+      [ngStyle]="customStyle">
+      <div class="welcome-title pl-3 pr-3">
+        <h1>Jack Yang</h1>
+        <h3>Software Engineer @ Google</h3>
+        <h5>A leader, innovator and problem solver</h5>
+      </div>
+
+      <div class="down-button">
+        <a pageScroll class="btn" href="#skills" aria-label="Go to the next section">
+          <fa-icon [icon]="faArrowCircleDown" size="4x"></fa-icon>
+        </a>
+      </div>
+    </div>
+  </sn-scroll-spy-section>
+
+  <sn-scroll-spy-section id="skills" class="row content-filler" for="nav-list">
+    <app-skills></app-skills>
+  </sn-scroll-spy-section>
+
+  <section class="row">
+    <div class="fill-screen fixed-attachment bg-img-2" [ngStyle]="customStyle"></div>
+  </section>
+
+  <sn-scroll-spy-section id="experiences" class="row content-filler" for="nav-list">
+    <app-experiences></app-experiences>
+  </sn-scroll-spy-section>
+
+  <section class="row">
+    <div class="fill-screen fixed-attachment bg-img-3" [ngStyle]="customStyle"></div>
+  </section>
+
+  <sn-scroll-spy-section id="education" class="row content-filler" for="nav-list">
+    <app-education></app-education>
+  </sn-scroll-spy-section>
+
+  <section class="row">
+    <div class="fill-screen fixed-attachment bg-img-4" [ngStyle]="customStyle"></div>
+  </section>
+
+  <sn-scroll-spy-section id="moreAboutMe" class="row content-filler" for="nav-list">
+    <app-more-about></app-more-about>
+  </sn-scroll-spy-section>
+</article>
+
+<footer></footer>

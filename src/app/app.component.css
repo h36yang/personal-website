@@ -1,0 +1,24 @@
+.welcome-title {
+    position: relative;
+    top: 45%;
+    color: #f8f9fa;
+}
+
+.down-button {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 40px;
+}
+
+.down-button fa-icon {
+    color: #f8f9fa;
+}
+
+.bg-img-1 {
+    background-image: url("../assets/img/gcp_wallpaper_darker.webp");
+}
+
+#skills {
+    margin-top: 160px;
+}
