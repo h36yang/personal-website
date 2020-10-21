@@ -1563,6 +1563,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fortawesome/free-brands-svg-icons@npm:^5.15.1":
+  version: 5.15.1
+  resolution: "@fortawesome/free-brands-svg-icons@npm:5.15.1"
+  dependencies:
+    "@fortawesome/fontawesome-common-types": ^0.2.32
+  checksum: d6d0544d2428a2cdca8308a4a0d4c8f7eb10b3b9f1aa04c26e58f310d909201e316253d6bdb8d31cca21e8633060f5b342fc68a7e8d11cf6d6289e23cc0a94d2
+  languageName: node
+  linkType: hard
+
 "@fortawesome/free-solid-svg-icons@npm:^5.15.1":
   version: 5.15.1
   resolution: "@fortawesome/free-solid-svg-icons@npm:5.15.1"
@@ -8590,6 +8599,7 @@ fsevents@~2.1.2:
     "@angular/router": ~10.1.6
     "@fortawesome/angular-fontawesome": ^0.7.0
     "@fortawesome/fontawesome-svg-core": ^1.2.32
+    "@fortawesome/free-brands-svg-icons": ^5.15.1
     "@fortawesome/free-solid-svg-icons": ^5.15.1
     "@ng-bootstrap/ng-bootstrap": ^7.0.0
     "@thisissoon/angular-inviewport": ^4.2.2
