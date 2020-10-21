@@ -1,1 +1,41 @@
-<p>header works!</p>
+<nav role="navigation" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"
+    [ngClass]="{ 'navbar-shrink': isNavbarShrinked }" (window:scroll)="onPageScroll()">
+    <button class="navbar-toggler" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <aside id="navbarNav" [ngbCollapse]="isNavbarCollapsed" class="collapse navbar-collapse justify-content-end">
+        <ul snScrollSpy id="nav-list" class="nav navbar-nav nav-pills">
+            <li class="nav-item">
+                <a pageScroll snScrollSpyItem for="nav-list" class="nav-link" href="#top">
+                    <span>Home</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a pageScroll snScrollSpyItem for="nav-list" class="nav-link" href="#skills">
+                    <span>Technical Skills</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a pageScroll snScrollSpyItem for="nav-list" class="nav-link" href="#experiences">
+                    <span>Professional Experiences</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a pageScroll snScrollSpyItem for="nav-list" class="nav-link" href="#education">
+                    <span>Education & Certifications</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a pageScroll snScrollSpyItem for="nav-list" class="nav-link" href="#moreAboutJack">
+                    <span>More About Jack</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+</nav>

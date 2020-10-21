@@ -1,0 +1,15 @@
+.navbar {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.navbar-shrink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+}

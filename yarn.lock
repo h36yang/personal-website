@@ -288,6 +288,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@angular/localize@npm:~10.1.6":
+  version: 10.1.6
+  resolution: "@angular/localize@npm:10.1.6"
+  dependencies:
+    "@babel/core": 7.8.3
+    glob: 7.1.2
+    yargs: 15.3.0
+  peerDependencies:
+    "@angular/compiler": 10.1.6
+    "@angular/compiler-cli": 10.1.6
+  bin:
+    localize-extract: src/tools/src/extract/main.js
+    localize-translate: src/tools/src/translate/main.js
+  checksum: 606adc5a78e67ee436dae1752bb2fcfc4eb84660c136240277e294d4c8d3574f99b5f0ff8a71e0b1a2b566a33a6236d3ba01fc8e5cd094559d2f558954ccfa1b
+  languageName: node
+  linkType: hard
+
 "@angular/platform-browser-dynamic@npm:~10.1.6":
   version: 10.1.6
   resolution: "@angular/platform-browser-dynamic@npm:10.1.6"
@@ -332,7 +349,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.10.4":
+"@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.10.4, @babel/code-frame@npm:^7.8.3":
   version: 7.10.4
   resolution: "@babel/code-frame@npm:7.10.4"
   dependencies:
@@ -372,7 +389,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/generator@npm:7.11.0, @babel/generator@npm:^7.11.0":
+"@babel/core@npm:7.8.3":
+  version: 7.8.3
+  resolution: "@babel/core@npm:7.8.3"
+  dependencies:
+    "@babel/code-frame": ^7.8.3
+    "@babel/generator": ^7.8.3
+    "@babel/helpers": ^7.8.3
+    "@babel/parser": ^7.8.3
+    "@babel/template": ^7.8.3
+    "@babel/traverse": ^7.8.3
+    "@babel/types": ^7.8.3
+    convert-source-map: ^1.7.0
+    debug: ^4.1.0
+    gensync: ^1.0.0-beta.1
+    json5: ^2.1.0
+    lodash: ^4.17.13
+    resolve: ^1.3.2
+    semver: ^5.4.1
+    source-map: ^0.5.0
+  checksum: 0e940e9ead7cc831cb3bcbe4429ea62aa9fdc7542d7ad11a69d7e6c8897337d3702d835c499c09bda98f044e872c620fdb406ad9c0ffbcc7a101c217e7a550ad
+  languageName: node
+  linkType: hard
+
+"@babel/generator@npm:7.11.0, @babel/generator@npm:^7.11.0, @babel/generator@npm:^7.8.3":
   version: 7.11.0
   resolution: "@babel/generator@npm:7.11.0"
   dependencies:
@@ -640,7 +680,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helpers@npm:^7.10.4":
+"@babel/helpers@npm:^7.10.4, @babel/helpers@npm:^7.8.3":
   version: 7.12.1
   resolution: "@babel/helpers@npm:7.12.1"
   dependencies:
@@ -662,7 +702,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.10.4, @babel/parser@npm:^7.11.1, @babel/parser@npm:^7.12.1":
+"@babel/parser@npm:^7.10.4, @babel/parser@npm:^7.11.1, @babel/parser@npm:^7.12.1, @babel/parser@npm:^7.8.3":
   version: 7.12.3
   resolution: "@babel/parser@npm:7.12.3"
   bin:
@@ -1456,7 +1496,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/template@npm:7.10.4, @babel/template@npm:^7.10.4":
+"@babel/template@npm:7.10.4, @babel/template@npm:^7.10.4, @babel/template@npm:^7.8.3":
   version: 7.10.4
   resolution: "@babel/template@npm:7.10.4"
   dependencies:
@@ -1467,7 +1507,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/traverse@npm:^7.10.4, @babel/traverse@npm:^7.11.0, @babel/traverse@npm:^7.12.1":
+"@babel/traverse@npm:^7.10.4, @babel/traverse@npm:^7.11.0, @babel/traverse@npm:^7.12.1, @babel/traverse@npm:^7.8.3":
   version: 7.12.1
   resolution: "@babel/traverse@npm:7.12.1"
   dependencies:
@@ -1512,6 +1552,21 @@ __metadata:
     merge-source-map: ^1.1.0
     schema-utils: ^2.7.0
   checksum: f464969fce1c810faa4b134f4f2ac789df72400af06f408996fbfc5785bdc3c7da5c2cddfbd96230768de94bee33c7f2c17ef044e0c593cd352ac609af920c0f
+  languageName: node
+  linkType: hard
+
+"@ng-bootstrap/ng-bootstrap@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "@ng-bootstrap/ng-bootstrap@npm:7.0.0"
+  dependencies:
+    tslib: ^2.0.0
+  peerDependencies:
+    "@angular/common": ^10.0.0
+    "@angular/core": ^10.0.0
+    "@angular/forms": ^10.0.0
+    "@angular/localize": ^10.0.0
+    rxjs: ^6.5.5
+  checksum: c978a1d0c5aeff1d5bd762408ed57f56c851e5801274bc1dc35e7a43d849e6a12a9861dfda01b6eff2c4af68181c02dc0038759c41077b003a694c2672dfba0c
   languageName: node
   linkType: hard
 
@@ -1590,6 +1645,29 @@ __metadata:
     semver: 7.3.2
     semver-intersect: 1.4.0
   checksum: 072618144846440f39537a4d9e5c01d7bba9351a23302e928434a42d7fab293db5e0d871b587c88eade9036f8c73e917e51a9dfcd5b05c84a6f7aa162ee2001c
+  languageName: node
+  linkType: hard
+
+"@thisissoon/angular-inviewport@npm:^4.2.2":
+  version: 4.2.2
+  resolution: "@thisissoon/angular-inviewport@npm:4.2.2"
+  dependencies:
+    tslib: ^1.9.0
+  peerDependencies:
+    "@angular/core": ">=5.0.0 <9.0.0"
+  checksum: a7055c577535d7749ed4ea00c6018a4277ad7a7c2cb9b06f64f0d80181f697196375f66acc00cf9f0f0ae03259a6036af3476922a27586503bf8c4fc0b7aad3f
+  languageName: node
+  linkType: hard
+
+"@thisissoon/angular-scrollspy@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@thisissoon/angular-scrollspy@npm:2.2.0"
+  dependencies:
+    tslib: ^1.9.0
+  peerDependencies:
+    "@angular/core": ">=5.0.0"
+    "@thisissoon/angular-inviewport": ">=4.0.0"
+  checksum: 87e161b1a5079e1a1f5639dd00f3be1b5c31ea70105b7cdae4851d2abcf477391eb45631ea10a28aad3f93606a4ca716da00d4202593306f3a24bc83783176ea
   languageName: node
   linkType: hard
 
@@ -2632,6 +2710,16 @@ __metadata:
   version: 1.0.0
   resolution: "boolbase@npm:1.0.0"
   checksum: e827963c416fdb1dbcd57e066a43c40829518f4dcdc9f58ed04519daeebb610adacbb6cf102518bda9f08be593c5b1b49a83e36bf6b7d91b3403f7e35510eeae
+  languageName: node
+  linkType: hard
+
+"bootstrap@npm:^4.5.3":
+  version: 4.5.3
+  resolution: "bootstrap@npm:4.5.3"
+  peerDependencies:
+    jquery: 1.9.1 - 3
+    popper.js: ^1.16.1
+  checksum: 8c8850152f535ea1f3a24ceb06baaf12557423ad02fa17d8a1517a4a46b46cee58ecf0d031fca0e4d0cce2165d3bac0c90e782eb31cf7a84dae640531f7b2f7c
   languageName: node
   linkType: hard
 
@@ -5292,6 +5380,20 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"glob@npm:7.1.2":
+  version: 7.1.2
+  resolution: "glob@npm:7.1.2"
+  dependencies:
+    fs.realpath: ^1.0.0
+    inflight: ^1.0.4
+    inherits: 2
+    minimatch: ^3.0.4
+    once: ^1.3.0
+    path-is-absolute: ^1.0.0
+  checksum: eeb466da847c75811d6ba5ceb0e1fd857dbecfdef647eba8e71c4047b1882bf2d9b4def072382fa328283b3afb802de64ab240e9a169c1fede3aec53906520bc
+  languageName: node
+  linkType: hard
+
 "glob@npm:7.1.6, glob@npm:^7.0.3, glob@npm:^7.0.6, glob@npm:^7.1.1, glob@npm:^7.1.3, glob@npm:^7.1.4, glob@npm:^7.1.6":
   version: 7.1.6
   resolution: "glob@npm:7.1.6"
@@ -5911,6 +6013,13 @@ fsevents@~2.1.2:
     default-gateway: ^4.2.0
     ipaddr.js: ^1.9.0
   checksum: 2cf2248053bd471a3f07880d76a86fa64fb16f2fe5006c0efda218224050ea383618788627498734055cc7027926b7749288f88981bb35433da3f4171824afd0
+  languageName: node
+  linkType: hard
+
+"intersection-observer@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "intersection-observer@npm:0.11.0"
+  checksum: 251c369eec0834da2e248cf1827d00332eca3a6aba4d6d216afa566d29ee7bf28e537838c582a246860b5df2b2ccdace2dcdd16fd7edb70dff4f28aba3aea7ec
   languageName: node
   linkType: hard
 
@@ -6615,7 +6724,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"json5@npm:^2.1.2":
+"json5@npm:^2.1.0, json5@npm:^2.1.2":
   version: 2.1.3
   resolution: "json5@npm:2.1.3"
   dependencies:
@@ -6978,7 +7087,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.11, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19":
+"lodash@npm:^4.17.11, lodash@npm:^4.17.13, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19":
   version: 4.17.20
   resolution: "lodash@npm:4.17.20"
   checksum: c62101d2500c383b5f174a7e9e6fe8098149ddd6e9ccfa85f36d4789446195f5c4afd3cfba433026bcaf3da271256566b04a2bf2618e5a39f6e67f8c12030cb6
@@ -7564,6 +7673,31 @@ fsevents@~2.1.2:
   version: 1.0.0
   resolution: "next-tick@npm:1.0.0"
   checksum: 18db63c447c6e65a23235b91da9ccdae53f74f9194cfbc71a1fd3170cdf81bd157d9676e47c2ea4ea5bd20e09fb019917b0a45d8e1a63e377175fc083f285234
+  languageName: node
+  linkType: hard
+
+"ngx-page-scroll-core@npm:^7.0.3":
+  version: 7.0.3
+  resolution: "ngx-page-scroll-core@npm:7.0.3"
+  dependencies:
+    tslib: ^2.0.0
+  peerDependencies:
+    "@angular/common": ^8.0.0 || ^9.0.0 || ^10.0.5
+    "@angular/core": ^8.0.0 || ^9.0.0 || ^10.0.5
+  checksum: 6f851fafc09cfe252f0d11589eb826b9860d916ceb79312e24b16fe197a6ef105d5272e863b7df6889d14878d25b7d1286eedaee3d0d231a6e08635e9115e263
+  languageName: node
+  linkType: hard
+
+"ngx-page-scroll@npm:^7.0.3":
+  version: 7.0.3
+  resolution: "ngx-page-scroll@npm:7.0.3"
+  dependencies:
+    tslib: ^2.0.0
+  peerDependencies:
+    "@angular/common": ^8.0.0 || ^9.0.0 || ^10.0.5
+    "@angular/core": ^8.0.0 || ^9.0.0 || ^10.0.5
+    ngx-page-scroll-core: 7.0.3
+  checksum: 2f2594cce76fbcdf0a5dab0be0db707866b0450064fd5a513f80f45ea35547ab1db437dd8d7fb0af6a66ea58e761a1bf52763310cae06c7173ccccb63d58cb46
   languageName: node
   linkType: hard
 
@@ -8404,13 +8538,19 @@ fsevents@~2.1.2:
     "@angular/compiler-cli": ~10.1.6
     "@angular/core": ~10.1.6
     "@angular/forms": ~10.1.6
+    "@angular/localize": ~10.1.6
     "@angular/platform-browser": ~10.1.6
     "@angular/platform-browser-dynamic": ~10.1.6
     "@angular/router": ~10.1.6
+    "@ng-bootstrap/ng-bootstrap": ^7.0.0
+    "@thisissoon/angular-inviewport": ^4.2.2
+    "@thisissoon/angular-scrollspy": ^2.2.0
     "@types/jasmine": ~3.5.0
     "@types/jasminewd2": ~2.0.3
     "@types/node": ^12.11.1
+    bootstrap: ^4.5.3
     codelyzer: ^6.0.0
+    intersection-observer: ^0.11.0
     jasmine-core: ~3.6.0
     jasmine-spec-reporter: ~5.0.0
     karma: ~5.0.0
@@ -8418,6 +8558,8 @@ fsevents@~2.1.2:
     karma-coverage-istanbul-reporter: ~3.0.2
     karma-jasmine: ~4.0.0
     karma-jasmine-html-reporter: ^1.5.0
+    ngx-page-scroll: ^7.0.3
+    ngx-page-scroll-core: ^7.0.3
     protractor: ~7.0.0
     rxjs: ~6.6.0
     ts-node: ~8.3.0
