@@ -1,20 +1,51 @@
-<div class="card" *ngFor="let exp of exps">
-    <div class="row">
-        <span class="col-3 col-md-2 align-self-center text-center text-md-right">
-            <fa-icon class="d-none d-md-inline" [icon]="exp.logo" size="5x" [ngStyle]="{ color : exp.color }"></fa-icon>
-            <fa-icon class="d-inline d-md-none" [icon]="exp.logo" size="3x" [ngStyle]="{ color : exp.color }"></fa-icon>
-        </span>
-        <div class="col-9 col-md-10 card-body">
-            <h5 class="card-title">{{ exp.title }}</h5>
-            <h6 class="card-subtitle mb-2 text-muted">
-                {{ exp.employer }}
-                <span class="d-none d-md-inline">@&nbsp;{{ exp.location }}</span>
-            </h6>
-            <em class="card-text">
-                {{ exp.startTime | date:'MMM, yyyy' }}&nbsp;-
-                <span *ngIf="exp.endTime; else present">{{ exp.endTime | date:'MMM, yyyy' }}</span>
-                <ng-template #present>Present</ng-template>
-            </em>
+<div class="card">
+    <h4 class="card-header text-center">Work Experiences</h4>
+    <div class="card-body">
+        <div class="card" *ngFor="let exp of work">
+            <div class="row">
+                <span class="col-3 col-md-2 align-self-center text-center">
+                    <fa-icon class="d-none d-md-inline" [icon]="exp.logo" size="5x" [ngStyle]="{ color : exp.color }"></fa-icon>
+                    <fa-icon class="d-inline d-md-none" [icon]="exp.logo" size="3x" [ngStyle]="{ color : exp.color }"></fa-icon>
+                </span>
+                <div class="col-9 col-md-10 card-body">
+                    <h5 class="card-title">{{ exp.title }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        {{ exp.employer }}
+                        <span class="d-none d-md-inline">@&nbsp;{{ exp.location }}</span>
+                    </h6>
+                    <em class="card-text">
+                        {{ exp.startTime | date:'MMM, yyyy' }}&nbsp;-
+                        <span *ngIf="exp.endTime; else present">{{ exp.endTime | date:'MMM, yyyy' }}</span>
+                        <ng-template #present>Present</ng-template>
+                    </em>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <h4 class="card-header text-center">Internship Experiences</h4>
+    <div class="card-body">
+        <div class="card" *ngFor="let exp of intern">
+            <div class="row">
+                <span class="col-3 col-md-2 align-self-center text-center">
+                    <fa-icon class="d-none d-md-inline" [icon]="exp.logo" size="5x" [ngStyle]="{ color : exp.color }"></fa-icon>
+                    <fa-icon class="d-inline d-md-none" [icon]="exp.logo" size="3x" [ngStyle]="{ color : exp.color }"></fa-icon>
+                </span>
+                <div class="col-9 col-md-10 card-body">
+                    <h5 class="card-title">{{ exp.title }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        {{ exp.employer }}
+                        <span class="d-none d-md-inline">@&nbsp;{{ exp.location }}</span>
+                    </h6>
+                    <em class="card-text">
+                        {{ exp.startTime | date:'MMM, yyyy' }}&nbsp;-
+                        <span *ngIf="exp.endTime; else present">{{ exp.endTime | date:'MMM, yyyy' }}</span>
+                        <ng-template #present>Present</ng-template>
+                    </em>
+                </div>
+            </div>
         </div>
     </div>
 </div>

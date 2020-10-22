@@ -1,5 +1,3 @@
-<ul>
-    <li *ngFor="let x of skills">
-        <span>{{ x }}</span>
-    </li>
-</ul>
+<angular-tag-cloud [data]="skills" [config]="options" [zoomOnHover]="zoomOnHoverOptions" [realignOnResize]="true"
+    [randomizeAngle]="true">
+</angular-tag-cloud>

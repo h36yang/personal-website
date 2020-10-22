@@ -15,8 +15,24 @@
     color: #f8f9fa;
 }
 
+.content-filler {
+    min-height: 600px;
+}
+
 .bg-img-1 {
     background-image: url("../assets/img/gcp_wallpaper_darker.webp");
+}
+
+.bg-img-2 {
+    background-image: url("../assets/img/vscode_wallpaper.jpg");
+}
+
+.bg-img-3 {
+    background-image: url("../assets/img/gcp_wallpaper.jpg");
+}
+
+.bg-img-4 {
+    background-image: url("../assets/img/angular_wallpaper.jpg");
 }
 
 #skills {

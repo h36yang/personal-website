@@ -2,8 +2,8 @@
   <app-header></app-header>
 </header>
 
-<article class="container-fluid" (window:resize)="adjustHeight()">
-  <sn-scroll-spy-section id="top" class="row" for="nav-list">
+<div class="container-fluid" (window:resize)="adjustHeight()">
+  <section uniScrollSpy="top" id="top" class="row">
     <div parallax [config]="parallaxConfig" class="fill-screen bg-img-1 text-center text-justify"
       [ngStyle]="customStyle">
       <div class="welcome-title pl-3 pr-3">
@@ -18,35 +18,33 @@
         </a>
       </div>
     </div>
-  </sn-scroll-spy-section>
+  </section>
 
-  <sn-scroll-spy-section id="skills" class="row content-filler" for="nav-list">
+  <section uniScrollSpy="skills" id="skills" class="row content-filler">
     <app-skills></app-skills>
-  </sn-scroll-spy-section>
+  </section>
 
   <section class="row">
     <div class="fill-screen fixed-attachment bg-img-2" [ngStyle]="customStyle"></div>
   </section>
 
-  <sn-scroll-spy-section id="experiences" class="row content-filler" for="nav-list">
+  <section uniScrollSpy="experiences" id="experiences" class="row content-filler d-block">
     <app-experiences></app-experiences>
-  </sn-scroll-spy-section>
+  </section>
 
   <section class="row">
     <div class="fill-screen fixed-attachment bg-img-3" [ngStyle]="customStyle"></div>
   </section>
 
-  <sn-scroll-spy-section id="education" class="row content-filler" for="nav-list">
+  <section uniScrollSpy="education" id="education" class="row content-filler">
     <app-education></app-education>
-  </sn-scroll-spy-section>
+  </section>
 
   <section class="row">
     <div class="fill-screen fixed-attachment bg-img-4" [ngStyle]="customStyle"></div>
   </section>
 
-  <sn-scroll-spy-section id="moreAboutMe" class="row content-filler" for="nav-list">
+  <section uniScrollSpy="moreAboutMe" id="moreAboutMe" class="row content-filler">
     <app-more-about></app-more-about>
-  </sn-scroll-spy-section>
-</article>
-
-<footer></footer>
+  </section>
+</div>

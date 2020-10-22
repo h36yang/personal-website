@@ -1694,29 +1694,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@thisissoon/angular-inviewport@npm:^4.2.2":
-  version: 4.2.2
-  resolution: "@thisissoon/angular-inviewport@npm:4.2.2"
-  dependencies:
-    tslib: ^1.9.0
-  peerDependencies:
-    "@angular/core": ">=5.0.0 <9.0.0"
-  checksum: a7055c577535d7749ed4ea00c6018a4277ad7a7c2cb9b06f64f0d80181f697196375f66acc00cf9f0f0ae03259a6036af3476922a27586503bf8c4fc0b7aad3f
-  languageName: node
-  linkType: hard
-
-"@thisissoon/angular-scrollspy@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "@thisissoon/angular-scrollspy@npm:2.2.0"
-  dependencies:
-    tslib: ^1.9.0
-  peerDependencies:
-    "@angular/core": ">=5.0.0"
-    "@thisissoon/angular-inviewport": ">=4.0.0"
-  checksum: 87e161b1a5079e1a1f5639dd00f3be1b5c31ea70105b7cdae4851d2abcf477391eb45631ea10a28aad3f93606a4ca716da00d4202593306f3a24bc83783176ea
-  languageName: node
-  linkType: hard
-
 "@types/glob@npm:^7.1.1":
   version: 7.1.3
   resolution: "@types/glob@npm:7.1.3"
@@ -1800,6 +1777,18 @@ __metadata:
     "@types/source-list-map": "*"
     source-map: ^0.6.1
   checksum: b9b5293b62f77f4625b03a543ac9625a037d7eca2e41e84bacbae14acbacdb1e2399f97710647986fd93f13423106c7acb747bda4f1ba42b0d55a398f7900c7c
+  languageName: node
+  linkType: hard
+
+"@uniprank/ngx-scrollspy@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@uniprank/ngx-scrollspy@npm:1.1.0"
+  dependencies:
+    tslib: ^2.0.0
+  peerDependencies:
+    "@angular/common": ">=7.2.0"
+    "@angular/core": ">=7.2.0"
+  checksum: 2d245d792a4e99a3bdf64d903462e6a77db2b67f683ae9b2e36efd4378216a858330a0f364ee07eb61f137c7f53c7507002389a6762afe6a5342f29fc22f26c5
   languageName: node
   linkType: hard
 
@@ -2160,6 +2149,18 @@ __metadata:
   version: 1.0.2
   resolution: "alphanum-sort@npm:1.0.2"
   checksum: 28bad91719e15959e36a791a3538924e07da356ebe3b5f992e7668e8018cfc417a7ba4a69512771e5ffa306c7e028435c7748546f66f72d4f7b0ad694cf55069
+  languageName: node
+  linkType: hard
+
+"angular-tag-cloud-module@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "angular-tag-cloud-module@npm:5.1.0"
+  dependencies:
+    tslib: ^2.0.0
+  peerDependencies:
+    "@angular/common": ^10.0.0 || ^11.0.0-0
+    "@angular/core": ^10.0.0 || ^11.0.0-0
+  checksum: 972dc79e8a8da2ca274dae6ac580f7ea60e86f964e21dc2418d1a890605084bf90890453773a143e5ccbf9e131d9fa92d578a7ae1055a782a45b85f8b62cc10d
   languageName: node
   linkType: hard
 
@@ -8602,11 +8603,11 @@ fsevents@~2.1.2:
     "@fortawesome/free-brands-svg-icons": ^5.15.1
     "@fortawesome/free-solid-svg-icons": ^5.15.1
     "@ng-bootstrap/ng-bootstrap": ^7.0.0
-    "@thisissoon/angular-inviewport": ^4.2.2
-    "@thisissoon/angular-scrollspy": ^2.2.0
     "@types/jasmine": ~3.5.0
     "@types/jasminewd2": ~2.0.3
     "@types/node": ^12.11.1
+    "@uniprank/ngx-scrollspy": ^1.1.0
+    angular-tag-cloud-module: ^5.1.0
     bootstrap: ^4.5.3
     codelyzer: ^6.0.0
     intersection-observer: ^0.11.0

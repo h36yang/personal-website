@@ -7,12 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  logoUrl: string;
   isNavbarCollapsed: boolean;
   isNavbarShrinked: boolean;
 
   ngOnInit(): void {
-    this.logoUrl = 'assets/img/logo.png';
     this.isNavbarCollapsed = true;
     this.isNavbarShrinked = false;
   }

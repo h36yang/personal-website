@@ -12,7 +12,7 @@ import { Experience } from './experience';
 })
 export class ExperiencesComponent implements OnInit {
 
-  exps: Experience[] = [{
+  work: Experience[] = [{
     employer: 'Google',
     logo: faGoogle,
     color: 'deepskyblue',
@@ -51,7 +51,9 @@ export class ExperiencesComponent implements OnInit {
     location: 'Toronto, ON',
     startTime: new Date(2014, 5),
     endTime: new Date(2017, 0)
-  }, {
+  }];
+
+  intern: Experience[] = [{
     employer: 'Ontario Teachers\' Pension Plan',
     logo: faAppleAlt,
     color: 'red',
@@ -65,8 +67,24 @@ export class ExperiencesComponent implements OnInit {
     color: 'orangered',
     title: 'Java Development Intern',
     location: 'Markham, ON',
-    startTime: new Date(2012, 4),
+    startTime: new Date(2013, 0),
     endTime: new Date(2013, 3)
+  }, {
+    employer: 'Genesys',
+    logo: faCloud,
+    color: 'orangered',
+    title: 'Java Development Intern',
+    location: 'Markham, ON',
+    startTime: new Date(2012, 4),
+    endTime: new Date(2012, 7)
+  }, {
+    employer: 'Speechbobble',
+    logo: faComment,
+    color: 'steelblue',
+    title: 'Social Media Web Developer',
+    location: 'Toronto, ON',
+    startTime: new Date(2011, 8),
+    endTime: new Date(2011, 11)
   }, {
     employer: 'Speechbobble',
     logo: faComment,
@@ -74,7 +92,7 @@ export class ExperiencesComponent implements OnInit {
     title: 'Social Media Web Developer',
     location: 'Toronto, ON',
     startTime: new Date(2011, 0),
-    endTime: new Date(2011, 11)
+    endTime: new Date(2011, 3)
   }];
 
   constructor() { }

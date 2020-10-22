@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { ParallaxConfig } from 'ngx-parallax';
 import { faArrowCircleDown, IconDefinition } from '@fortawesome/free-solid-svg-icons';
+import { ScrollSpyService } from '@uniprank/ngx-scrollspy';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,10 @@ export class AppComponent implements OnInit {
   faArrowCircleDown: IconDefinition;
   parallaxConfig: ParallaxConfig;
 
+  constructor(private scrollSpyService: ScrollSpyService) { }
+
   ngOnInit() {
+    this.scrollSpyService.setOffset('window', 100);
     this.parallaxConfig = { ratio: 0.2 };
     this.faArrowCircleDown = faArrowCircleDown;
     // Initalize background image height to be window height

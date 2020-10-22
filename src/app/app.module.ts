@@ -1,13 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
 import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
+import { NgxScrollspyModule } from '@uniprank/ngx-scrollspy';
 import { ParallaxModule } from 'ngx-parallax';
-import { InViewportModule } from '@thisissoon/angular-inviewport';
-import { ScrollSpyModule } from '@thisissoon/angular-scrollspy';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { TagCloudModule } from 'angular-tag-cloud-module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -29,13 +30,14 @@ import { EASE_IN_OUT_EXPO } from './easing-logic';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     NgbCollapseModule,
     NgxPageScrollCoreModule.forRoot({ scrollOffset: 80, easingLogic: EASE_IN_OUT_EXPO }),
     NgxPageScrollModule,
+    NgxScrollspyModule.forRoot(),
     ParallaxModule,
-    InViewportModule,
-    ScrollSpyModule.forRoot(),
-    FontAwesomeModule
+    FontAwesomeModule,
+    TagCloudModule
   ],
   providers: [],
   bootstrap: [AppComponent]
