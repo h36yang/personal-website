@@ -22,3 +22,13 @@ a.active {
         background-attachment: scroll;
     }
 }
+
+.wow {
+    visibility: visible;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .wow {
+        visibility: hidden;
+    }
+}

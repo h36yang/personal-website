@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 import { faAppleAlt, faCloud, faComment, faLaptopCode, faTv } from '@fortawesome/free-solid-svg-icons';
 import { faGoogle } from '@fortawesome/free-brands-svg-icons';
@@ -10,7 +10,7 @@ import { Experience } from './experience';
   templateUrl: './experiences.component.html',
   styleUrls: ['./experiences.component.css']
 })
-export class ExperiencesComponent implements OnInit {
+export class ExperiencesComponent {
 
   work: Experience[] = [{
     employer: 'Google',
@@ -109,10 +109,4 @@ export class ExperiencesComponent implements OnInit {
     startTime: new Date(2010, 4),
     endTime: new Date(2010, 7)
   }];
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

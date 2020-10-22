@@ -7,6 +7,7 @@ import { NgxScrollspyModule } from '@uniprank/ngx-scrollspy';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { ParallaxModule } from 'ngx-parallax';
+import { NgwWowModule } from 'ngx-wow';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { TagCloudModule } from 'angular-tag-cloud-module';
 
@@ -36,6 +37,7 @@ import { EASE_IN_OUT_EXPO } from './easing-logic';
     NgxScrollspyModule.forRoot(),
     NgxPageScrollCoreModule.forRoot({ scrollOffset: 50, easingLogic: EASE_IN_OUT_EXPO }),
     NgxPageScrollModule,
+    NgwWowModule,
     ParallaxModule,
     FontAwesomeModule,
     TagCloudModule

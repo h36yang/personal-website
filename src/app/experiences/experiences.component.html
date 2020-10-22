@@ -1,7 +1,7 @@
 <div class="card">
     <h4 class="card-header text-center">Work Experiences</h4>
     <div class="card-body">
-        <div class="card" *ngFor="let exp of work">
+        <div class="card wow bounceInRight" data-wow-offset="120" *ngFor="let exp of work">
             <div class="row">
                 <span class="col-3 col-md-2 align-self-center text-center">
                     <fa-icon class="d-none d-md-inline" [icon]="exp.logo" size="5x" [ngStyle]="{ color : exp.color }">
@@ -29,7 +29,7 @@
 <div class="card">
     <h4 class="card-header text-center">Internship Experiences</h4>
     <div class="card-body">
-        <div class="card" *ngFor="let exp of intern">
+        <div class="card wow bounceInRight" data-wow-offset="120" *ngFor="let exp of intern">
             <div class="row">
                 <span class="col-3 col-md-2 align-self-center text-center">
                     <fa-icon class="d-none d-md-inline" [icon]="exp.logo" size="5x" [ngStyle]="{ color : exp.color }">

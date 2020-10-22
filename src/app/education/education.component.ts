@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 import { Organization } from './organization';
 
@@ -7,7 +7,7 @@ import { Organization } from './organization';
   templateUrl: './education.component.html',
   styleUrls: ['./education.component.css']
 })
-export class EducationComponent implements OnInit {
+export class EducationComponent {
 
   orgs: Organization[] = [{
     name: 'Triplebyte',
@@ -48,10 +48,4 @@ export class EducationComponent implements OnInit {
       date: new Date(2016, 8)
     }]
   }];
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

@@ -2164,6 +2164,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"animate.css@npm:latest":
+  version: 4.1.1
+  resolution: "animate.css@npm:4.1.1"
+  checksum: 69ba8c9d59ba21aa9c71bcd855e54e6056333e1b611d80e9dee50ada82279f3a1a6fa0dd6ca2cc87ac5b6611f8a3c079bb7ae4a2e4758e60bdc5716e9cb5d574
+  languageName: node
+  linkType: hard
+
 "ansi-colors@npm:4.1.1":
   version: 4.1.1
   resolution: "ansi-colors@npm:4.1.1"
@@ -7757,6 +7764,17 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"ngx-wow@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "ngx-wow@npm:2.0.1"
+  peerDependencies:
+    "@angular/common": ">=6.0.0"
+    "@angular/core": ">=6.0.0"
+    wowjs: ">=1.1.3"
+  checksum: 03739cc877bfce696f51afdf28d2c8facb085d9eb22c39635facbffe86baa9e87ff91a6de198573a0494c58619e64457cea515ad03e6f179f96395b7b9545720
+  languageName: node
+  linkType: hard
+
 "nice-try@npm:^1.0.4":
   version: 1.0.5
   resolution: "nice-try@npm:1.0.5"
@@ -8621,12 +8639,14 @@ fsevents@~2.1.2:
     ngx-page-scroll: ^7.0.3
     ngx-page-scroll-core: ^7.0.3
     ngx-parallax: ^4.0.0
+    ngx-wow: ^2.0.1
     protractor: ~7.0.0
     rxjs: ~6.6.0
     ts-node: ~8.3.0
     tslib: ^2.0.0
     tslint: ~6.1.0
     typescript: ~4.0.2
+    wowjs: ^1.1.3
     zone.js: ~0.10.2
   languageName: unknown
   linkType: soft
@@ -12007,6 +12027,15 @@ typescript@~4.0.2:
   peerDependencies:
     webpack: ">= 4"
   checksum: f10b6540bf9d0211e049e53cdcf847174ed189e746a7839fc05854bb7f978a7969c7438eac985aade38a410bedb7337a50729e63d42b4a349180a75d4a411495
+  languageName: node
+  linkType: hard
+
+"wowjs@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "wowjs@npm:1.1.3"
+  dependencies:
+    animate.css: latest
+  checksum: 80f2e98b48ef5297e17a1cbca1b2f0c84f7d629a155756f0043725a2f8fcc2b5e0656a183aed7d84d2022f7e4f2bf883ae0a7a3cd5bfbe0b10b7e72f99bea25b
   languageName: node
   linkType: hard
 

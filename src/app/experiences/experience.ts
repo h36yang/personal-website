@@ -1,4 +1,4 @@
-import { IconDefinition } from '@fortawesome/free-solid-svg-icons';
+import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
 
 export class Experience {
 
