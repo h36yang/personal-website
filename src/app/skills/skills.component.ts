@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 import { CloudData, CloudOptions, ZoomOnHoverOptions } from 'angular-tag-cloud-module';
 
@@ -7,7 +7,7 @@ import { CloudData, CloudOptions, ZoomOnHoverOptions } from 'angular-tag-cloud-m
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.css']
 })
-export class SkillsComponent implements OnInit {
+export class SkillsComponent {
 
   zoomOnHoverOptions: ZoomOnHoverOptions = {
     scale: 1.3,
@@ -17,8 +17,8 @@ export class SkillsComponent implements OnInit {
 
   options: CloudOptions = {
     width: window.innerWidth,
-    height: 500,
-    step: 5,
+    height: window.innerHeight - 50,
+    step: 10,
     overflow: false
   };
 
@@ -89,10 +89,4 @@ export class SkillsComponent implements OnInit {
     text: 'Kubernetes',
     weight: 1
   }];
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

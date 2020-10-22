@@ -10,7 +10,7 @@
             <h2 class="display-5">{{ o.name }}</h2>
             <div *ngFor="let c of o.certificates">
                 <p class="lead">
-                    <a *ngIf="c.link; else nolink" [href]="c.link" target="_blank">{{ c.title }}</a>
+                    <a *ngIf="c.link; else nolink" [href]="c.link" target="_blank" rel="noopener">{{ c.title }}</a>
                     <ng-template #nolink>{{ c.title }}</ng-template>
                 </p>
                 <p>{{ c.date | date:'MMM, yyyy' }}</p>

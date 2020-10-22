@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { faAppleAlt, faCloud, faComment } from '@fortawesome/free-solid-svg-icons';
+import { faAppleAlt, faCloud, faComment, faLaptopCode, faTv } from '@fortawesome/free-solid-svg-icons';
 import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 
 import { Experience } from './experience';
@@ -27,6 +27,13 @@ export class ExperiencesComponent implements OnInit {
     location: 'Toronto, ON',
     startTime: new Date(2020, 8),
     endTime: new Date(2020, 9)
+  }, {
+    employer: 'TechShow Solutions',
+    logo: faLaptopCode,
+    color: 'lightslategrey',
+    title: 'Founder',
+    location: 'Toronto, ON',
+    startTime: new Date(2019, 0)
   }, {
     employer: 'Ontario Teachers\' Pension Plan',
     logo: faAppleAlt,
@@ -93,6 +100,14 @@ export class ExperiencesComponent implements OnInit {
     location: 'Toronto, ON',
     startTime: new Date(2011, 0),
     endTime: new Date(2011, 3)
+  }, {
+    employer: 'Transvideo Digital',
+    logo: faTv,
+    color: 'goldenrod',
+    title: 'Co-op Software Developer',
+    location: 'Beijing, China',
+    startTime: new Date(2010, 4),
+    endTime: new Date(2010, 7)
   }];
 
   constructor() { }

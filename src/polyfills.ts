@@ -61,4 +61,5 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+// import '@angular/localize/init'; // for @ng-bootstrap/ng-bootstrap
 import 'intersection-observer'; // for @thisissoon/angular-scrollspy

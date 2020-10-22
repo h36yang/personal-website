@@ -1,7 +1,7 @@
 .welcome-title {
     position: relative;
     top: 45%;
-    color: #f8f9fa;
+    color: silver;
 }
 
 .down-button {
@@ -12,7 +12,7 @@
 }
 
 .down-button fa-icon {
-    color: #f8f9fa;
+    color: silver;
 }
 
 .content-filler {
@@ -33,8 +33,4 @@
 
 .bg-img-4 {
     background-image: url("../assets/img/angular_wallpaper.jpg");
-}
-
-#skills {
-    margin-top: 160px;
 }
