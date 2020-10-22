@@ -1,1 +1,20 @@
-<p>education works!</p>
+<div class="jumbotron">
+    <div class="container text-center">
+        <h2 class="display-5">University of Waterloo</h2>
+        <p class="lead">Bachelor of Applied Science, Electrical Engineering, Honours, Co-operative Program</p>
+        <p>2009 - 2014</p>
+
+        <hr class="my-4">
+
+        <div *ngFor="let o of orgs">
+            <h2 class="display-5">{{ o.name }}</h2>
+            <div *ngFor="let c of o.certificates">
+                <p class="lead">
+                    <a *ngIf="c.link; else nolink" [href]="c.link" target="_blank">{{ c.title }}</a>
+                    <ng-template #nolink>{{ c.title }}</ng-template>
+                </p>
+                <p>{{ c.date | date:'MMM, yyyy' }}</p>
+            </div>
+        </div>
+    </div>
+</div>
