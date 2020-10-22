@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
 
   constructor(private scrollSpyService: ScrollSpyService) { }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.scrollSpyService.setOffset('window', 100);
     this.parallaxConfig = { ratio: 0.2 };
     this.faArrowCircleDown = faArrowCircleDown;
@@ -27,7 +27,7 @@ export class AppComponent implements OnInit {
     };
   }
 
-  adjustHeight() {
+  adjustHeight(): void {
     // Only adjust background image height dynamically when viewport is smaller than 1024px
     if (window.innerWidth > 1024) {
       this.customStyle = {

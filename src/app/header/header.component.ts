@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
     this.isNavbarShrinked = false;
   }
 
-  onPageScroll() {
+  onPageScroll(): void {
     const y: number = window.scrollY || window.pageYOffset;
     if (y >= 250) {
       this.isNavbarShrinked = true;
