@@ -42,6 +42,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "ngx-parallax"
+            ],
             "outputPath": "dist/personal-website",
             "index": "src/index.html",
             "main": "src/main.ts",

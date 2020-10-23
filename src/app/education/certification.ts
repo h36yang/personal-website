@@ -4,3 +4,9 @@ export class Certification {
     date: Date;
     link?: string;
 }
+
+export class Organization {
+
+    name: string;
+    certificates: Certification[];
+}

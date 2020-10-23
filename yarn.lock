@@ -6070,13 +6070,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"intersection-observer@npm:^0.11.0":
-  version: 0.11.0
-  resolution: "intersection-observer@npm:0.11.0"
-  checksum: 251c369eec0834da2e248cf1827d00332eca3a6aba4d6d216afa566d29ee7bf28e537838c582a246860b5df2b2ccdace2dcdd16fd7edb70dff4f28aba3aea7ec
-  languageName: node
-  linkType: hard
-
 "invariant@npm:^2.2.2":
   version: 2.2.4
   resolution: "invariant@npm:2.2.4"
@@ -8628,7 +8621,6 @@ fsevents@~2.1.2:
     angular-tag-cloud-module: ^5.1.0
     bootstrap: ^4.5.3
     codelyzer: ^6.0.0
-    intersection-observer: ^0.11.0
     jasmine-core: ~3.6.0
     jasmine-spec-reporter: ~5.0.0
     karma: ~5.0.0

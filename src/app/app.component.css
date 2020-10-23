@@ -15,18 +15,14 @@
     color: silver;
 }
 
-.content-filler {
-    min-height: 600px;
-}
-
 .bg-img-1 {
     background-image: url("../assets/img/gcp_wallpaper_darker.webp");
 }
 
 .bg-img-2 {
-    background-image: url("../assets/img/vscode_wallpaper.jpg");
+    background-image: url("../assets/img/vscode_wallpaper.webp");
 }
 
 .bg-img-3 {
-    background-image: url("../assets/img/gcp_wallpaper.jpg");
+    background-image: url("../assets/img/gcp_wallpaper.webp");
 }

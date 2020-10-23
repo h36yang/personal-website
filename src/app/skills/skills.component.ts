@@ -10,13 +10,13 @@ import { CloudData, CloudOptions, ZoomOnHoverOptions } from 'angular-tag-cloud-m
 export class SkillsComponent {
 
   zoomOnHoverOptions: ZoomOnHoverOptions = {
-    scale: 1.3,
-    transitionTime: 0.6,
+    scale: 1.5,
+    transitionTime: 0.5,
     delay: 0.1
   };
 
   options: CloudOptions = {
-    width: window.innerWidth,
+    width: window.innerWidth - 20,
     height: window.innerHeight - 50,
     step: 10,
     overflow: false

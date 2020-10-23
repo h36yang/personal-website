@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { Organization } from './organization';
+import { Organization } from './certification';
 
 @Component({
   selector: 'app-education',

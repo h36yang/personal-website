@@ -28,7 +28,6 @@
     "@uniprank/ngx-scrollspy": "^1.1.0",
     "angular-tag-cloud-module": "^5.1.0",
     "bootstrap": "^4.5.3",
-    "intersection-observer": "^0.11.0",
     "ngx-page-scroll": "^7.0.3",
     "ngx-page-scroll-core": "^7.0.3",
     "ngx-parallax": "^4.0.0",

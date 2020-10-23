@@ -2,11 +2,11 @@
   <app-header></app-header>
 </header>
 
-<div class="container-fluid" (window:resize)="adjustHeight()">
-  <section uniScrollSpy="top" id="top" class="row">
+<div (window:resize)="adjustHeight()">
+  <section uniScrollSpy="top" id="top">
     <div parallax [config]="parallaxConfig" class="fill-screen bg-img-1 text-center text-justify"
       [ngStyle]="customStyle">
-      <div class="welcome-title pl-3 pr-3">
+      <div class="welcome-title px-3">
         <h1>Jack Yang</h1>
         <h3>Software Engineer @ Google</h3>
         <h5>A leader, innovator and problem solver</h5>
@@ -20,23 +20,19 @@
     </div>
   </section>
 
-  <section uniScrollSpy="skills" id="skills" class="row content-filler d-block">
+  <section uniScrollSpy="skills" id="skills" class="content-filler">
     <app-skills></app-skills>
   </section>
 
-  <section class="row">
-    <div class="fill-screen fixed-attachment bg-img-2" [ngStyle]="customStyle"></div>
-  </section>
+  <section class="fill-screen fixed-attachment bg-img-2" [ngStyle]="customStyle"></section>
 
-  <section uniScrollSpy="experiences" id="experiences" class="row content-filler d-block">
+  <section uniScrollSpy="experiences" id="experiences" class="content-filler">
     <app-experiences></app-experiences>
   </section>
 
-  <section class="row">
-    <div class="fill-screen fixed-attachment bg-img-3" [ngStyle]="customStyle"></div>
-  </section>
+  <section class="fill-screen fixed-attachment bg-img-3" [ngStyle]="customStyle"></section>
 
-  <section uniScrollSpy="education" id="education" class="row content-filler d-block">
+  <section uniScrollSpy="education" id="education" class="content-filler">
     <app-education></app-education>
   </section>
 </div>
