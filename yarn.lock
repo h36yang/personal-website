@@ -6965,6 +6965,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"lazysizes@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "lazysizes@npm:5.2.2"
+  checksum: 710b2745a1ab037ab27901f50302771fc45af4d62b2ba7fd3aa57e8b7793b06617cf6a529058f91c54ed45fc379c697b8f8fd2c27eaec862edb25fb187e45e8f
+  languageName: node
+  linkType: hard
+
 "less-loader@npm:6.2.0":
   version: 6.2.0
   resolution: "less-loader@npm:6.2.0"
@@ -8628,6 +8635,7 @@ fsevents@~2.1.2:
     karma-coverage-istanbul-reporter: ~3.0.2
     karma-jasmine: ~4.0.0
     karma-jasmine-html-reporter: ^1.5.0
+    lazysizes: ^5.2.2
     ngx-page-scroll: ^7.0.3
     ngx-page-scroll-core: ^7.0.3
     ngx-parallax: ^4.0.0

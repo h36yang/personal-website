@@ -15,14 +15,6 @@
     color: silver;
 }
 
-.bg-img-1 {
+.bg-img-main {
     background-image: url("../assets/img/gcp_wallpaper_darker.webp");
-}
-
-.bg-img-2 {
-    background-image: url("../assets/img/vscode_wallpaper.webp");
-}
-
-.bg-img-3 {
-    background-image: url("../assets/img/gcp_wallpaper.webp");
 }

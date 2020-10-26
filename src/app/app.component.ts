@@ -5,6 +5,7 @@ import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
 import { faArrowCircleDown } from '@fortawesome/free-solid-svg-icons';
 import { ScrollSpyService } from '@uniprank/ngx-scrollspy';
 import { NgwWowService } from 'ngx-wow';
+import 'lazysizes/plugins/unveilhooks/ls.unveilhooks';
 
 @Component({
   selector: 'app-root',
