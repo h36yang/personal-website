@@ -33,7 +33,7 @@ export class SkillsComponent {
     weight: 12
   }, {
     text: 'Java',
-    weight: 8
+    weight: 9
   }, {
     text: 'TypeScript',
     weight: 7
@@ -90,9 +90,9 @@ export class SkillsComponent {
     weight: 5
   }, {
     text: 'Spanner',
-    weight: 5
+    weight: 3
   }, {
     text: 'Pub/Sub',
-    weight: 5
+    weight: 4
   }];
 }
