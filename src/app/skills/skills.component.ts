@@ -35,7 +35,7 @@ export class SkillsComponent {
     text: 'Java',
     weight: 8
   }, {
-    text: 'JavaScript',
+    text: 'TypeScript',
     weight: 7
   }, {
     text: 'Golang',
@@ -88,5 +88,14 @@ export class SkillsComponent {
   }, {
     text: 'Kubernetes',
     weight: 1
+  }, {
+    text: 'Stripe API',
+    weight: 6
+  }, {
+    text: 'Boq Apps Framework',
+    weight: 5
+  }, {
+    text: 'Spanner',
+    weight: 5
   }];
 }
