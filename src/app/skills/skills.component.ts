@@ -97,5 +97,8 @@ export class SkillsComponent {
   }, {
     text: 'Spanner',
     weight: 5
+  }, {
+    text: 'Pub/Sub',
+    weight: 5
   }];
 }
