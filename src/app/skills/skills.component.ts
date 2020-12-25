@@ -50,9 +50,6 @@ export class SkillsComponent {
     text: 'Jenkins',
     weight: 7
   }, {
-    text: 'IBM UrbanCode Deploy',
-    weight: 4
-  }, {
     text: 'Angular',
     weight: 10
   }, {
@@ -61,9 +58,6 @@ export class SkillsComponent {
   }, {
     text: 'Azure',
     weight: 4
-  }, {
-    text: 'AWS',
-    weight: 2
   }, {
     text: 'Google Cloud',
     weight: 3
