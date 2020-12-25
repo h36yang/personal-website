@@ -1725,15 +1725,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fortawesome/angular-fontawesome@npm:^0.7.0":
-  version: 0.7.0
-  resolution: "@fortawesome/angular-fontawesome@npm:0.7.0"
+"@fortawesome/angular-fontawesome@npm:^0.8.1":
+  version: 0.8.1
+  resolution: "@fortawesome/angular-fontawesome@npm:0.8.1"
   dependencies:
-    tslib: ^2.0.0
+    tslib: ^2.0.3
   peerDependencies:
-    "@angular/core": ^10.0.0
+    "@angular/core": ^11.0.0
     "@fortawesome/fontawesome-svg-core": ^1.2.27
-  checksum: 0dfad50c64c8c1f65736cadb5ccbf529fbc012f81d814aa85ac41d4d9328d20a39f735e8e367ce53eb25c5db1092a894b1479b2bfbb64071d6817ca7d0556891
+  checksum: 80c007dcc26b835e7eb9e524e4250d7c8a19e2fe1701e5b4377e8a72462fa6f0add0eebd6443979812bf626057f246e2f60738bdd3a0e32e092bfea809271431
   languageName: node
   linkType: hard
 
@@ -8829,7 +8829,7 @@ fsevents@~2.1.2:
     "@angular/platform-browser": ~11.0.5
     "@angular/platform-browser-dynamic": ~11.0.5
     "@angular/router": ~11.0.5
-    "@fortawesome/angular-fontawesome": ^0.7.0
+    "@fortawesome/angular-fontawesome": ^0.8.1
     "@fortawesome/fontawesome-svg-core": ^1.2.32
     "@fortawesome/free-brands-svg-icons": ^5.15.1
     "@fortawesome/free-solid-svg-icons": ^5.15.1
@@ -8856,7 +8856,7 @@ fsevents@~2.1.2:
     protractor: ~7.0.0
     rxjs: ~6.6.3
     ts-node: ~8.3.0
-    tslib: ^2.0.0
+    tslib: ^2.0.3
     tslint: ~6.1.3
     typescript: ~4.0.2
     wowjs: ^1.1.3
@@ -11431,7 +11431,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.0.3, tslib@npm:^2.0.0":
+"tslib@npm:2.0.3, tslib@npm:^2.0.0, tslib@npm:^2.0.3":
   version: 2.0.3
   resolution: "tslib@npm:2.0.3"
   checksum: 447bfca5deaa157806c3f77eaba74d05dd0b38b014e47ce79d98b5c77ce7d91b00a687ba13ca1b5a74d35ca1098ac7a072c0a97fad06f0266612f2a03a6c8e8f
