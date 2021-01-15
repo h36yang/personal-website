@@ -89,10 +89,10 @@ export class SkillsComponent {
     text: 'Boq Apps Framework',
     weight: 5
   }, {
-    text: 'Spanner',
+    text: 'Cloud Spanner',
     weight: 3
   }, {
-    text: 'Pub/Sub',
+    text: 'Cloud Pub/Sub',
     weight: 4
   }];
 }
