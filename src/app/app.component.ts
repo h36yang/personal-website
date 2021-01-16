@@ -14,7 +14,7 @@ import 'lazysizes/plugins/unveilhooks/ls.unveilhooks';
 })
 export class AppComponent implements OnInit {
 
-  customStyle: object;
+  customStyle: { height: string };
   faArrowCircleDown: IconDefinition;
   parallaxConfig: ParallaxConfig;
 
