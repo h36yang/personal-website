@@ -34,6 +34,10 @@ export class EducationComponent {
       title: 'Angular (Basic) Certificate',
       date: new Date(2020, 5),
       link: 'https://www.hackerrank.com/certificates/40b12910d1e6'
+    }, {
+      title: 'C# (Basic) Certificate',
+      date: new Date(2021, 0),
+      link: 'https://www.hackerrank.com/certificates/ec8ce55f56e4'
     }]
   }, {
     name: 'Learning Tree',

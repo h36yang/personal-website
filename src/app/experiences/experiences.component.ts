@@ -23,7 +23,7 @@ export class ExperiencesComponent {
     employer: 'Ontario Teachers\' Pension Plan',
     logo: faAppleAlt,
     color: 'red',
-    title: 'Technical Team Lead',
+    title: 'Technical Team Lead (Manager)',
     location: 'Toronto, ON',
     startTime: new Date(2020, 8),
     endTime: new Date(2020, 9)
