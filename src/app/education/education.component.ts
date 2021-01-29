@@ -10,6 +10,13 @@ import { Organization } from './certification';
 export class EducationComponent {
 
   orgs: Organization[] = [{
+    name: 'Google',
+    certificates: [{
+      title: 'Java Readability',
+      date: new Date(2021, 0),
+      link: '../../assets/cert/Java201_Google.pdf',
+    }]
+  }, {
     name: 'Triplebyte',
     certificates: [{
       title: 'Certified Generalist Software Engineer',
@@ -43,7 +50,8 @@ export class EducationComponent {
     name: 'Learning Tree',
     certificates: [{
       title: 'Developing High-Performance SQL Server Databases',
-      date: new Date(2017, 7)
+      date: new Date(2017, 7),
+      link: '../../assets/cert/SQL_LearningTree.pdf',
     }]
   }, {
     name: 'Ontario Teachers\' Pension Plan',
