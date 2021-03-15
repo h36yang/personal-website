@@ -20,20 +20,20 @@ export class ExperiencesComponent {
     location: 'Seattle, WA',
     startTime: new Date(2020, 9)
   }, {
-    employer: 'Ontario Teachers\' Pension Plan',
-    logo: faAppleAlt,
-    color: 'red',
-    title: 'Technical Team Lead (Manager)',
-    location: 'Toronto, ON',
-    startTime: new Date(2020, 8),
-    endTime: new Date(2020, 9)
-  }, {
     employer: 'TechShow Solutions',
     logo: faLaptopCode,
     color: 'lightslategrey',
     title: 'Founder',
     location: 'Toronto, ON',
     startTime: new Date(2019, 0)
+  }, {
+    employer: 'Ontario Teachers\' Pension Plan',
+    logo: faAppleAlt,
+    color: 'red',
+    title: 'Technical Team Lead (Engineering Manager)',
+    location: 'Toronto, ON',
+    startTime: new Date(2020, 8),
+    endTime: new Date(2020, 9)
   }, {
     employer: 'Ontario Teachers\' Pension Plan',
     logo: faAppleAlt,
