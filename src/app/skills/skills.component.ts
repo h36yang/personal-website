@@ -89,10 +89,16 @@ export class SkillsComponent {
     text: 'Boq Apps Framework',
     weight: 5
   }, {
-    text: 'Cloud Spanner',
-    weight: 3
+    text: 'Spanner',
+    weight: 4
   }, {
     text: 'Cloud Pub/Sub',
     weight: 4
+  }, {
+    text: 'FlumeJava',
+    weight: 5
+  }, {
+    text: 'BigQuery',
+    weight: 2
   }];
 }
