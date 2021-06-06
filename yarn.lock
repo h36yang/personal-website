@@ -5822,17 +5822,17 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-ngx-page-scroll-core@^7.0.4:
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/ngx-page-scroll-core/-/ngx-page-scroll-core-7.0.4.tgz#d04b80b6b56bc301d4590f6c5f9558c8e0767e6d"
-  integrity sha512-9Xz8LqhETpMd69vlOCsUKaiC2u1z8ixyHb1+vsjicmHzHv2voLQIX9KGhRvnyNVEepY0tyzs/azAWJvxjd3uhg==
+ngx-page-scroll-core@^7.0.5:
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/ngx-page-scroll-core/-/ngx-page-scroll-core-7.0.5.tgz#832cd3c30104ea6c1f5d505eba891b1bce406aee"
+  integrity sha512-SlZE0FfFl0DRZccgasSo+QW4pZBfniypg1H1ZPXBNzLOzmVi3X6Wf21L2rxnDgdktXVjk2vg5kB0S5k9AIej3g==
   dependencies:
     tslib "^2.0.0"
 
-ngx-page-scroll@^7.0.4:
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/ngx-page-scroll/-/ngx-page-scroll-7.0.4.tgz#6c2d78fe374cd468dfa36f0c5af1de8e3f254b8a"
-  integrity sha512-/OQZWxbQwM9Wtvt6Tqv1JHLEg0hWDc9ofdAIrSId6BAG/z9Xa5HiC3ITjhokWSt8+P2li7Vel5MhbQBVq8Mmng==
+ngx-page-scroll@^7.0.5:
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/ngx-page-scroll/-/ngx-page-scroll-7.0.5.tgz#6479f76e4c92f8783f6534a38ef1bbac2d6f6578"
+  integrity sha512-9OM4WXFjS9K+DZe4J5lg2vonGDzQxR21rW2XnYirPbs+OtTRak0bt35qBaWS82rHc7cdOeXAvsJ/eVk5kEiEgg==
   dependencies:
     tslib "^2.0.0"
 
