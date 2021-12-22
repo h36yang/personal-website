@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { CloudData, CloudOptions, ZoomOnHoverOptions } from 'angular-tag-cloud-module';
+import { CloudData, CloudOptions } from 'angular-tag-cloud-module';
 
 @Component({
   selector: 'app-skills',
@@ -9,17 +9,17 @@ import { CloudData, CloudOptions, ZoomOnHoverOptions } from 'angular-tag-cloud-m
 })
 export class SkillsComponent {
 
-  zoomOnHoverOptions: ZoomOnHoverOptions = {
-    scale: 1.5,
-    transitionTime: 0.5,
-    delay: 0.1
-  };
-
   options: CloudOptions = {
     width: window.innerWidth - 20,
     height: window.innerHeight - 50,
     step: 10,
-    overflow: false
+    overflow: false,
+    randomizeAngle: true,
+    zoomOnHover: {
+      scale: 1.5,
+      transitionTime: 0.5,
+      delay: 0.1,
+    }
   };
 
   skills: CloudData[] = [{
