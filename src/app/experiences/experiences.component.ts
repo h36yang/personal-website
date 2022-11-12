@@ -16,16 +16,25 @@ export class ExperiencesComponent {
     employer: 'Google',
     logo: faGoogle,
     color: 'deepskyblue',
+    title: 'Senior Software Engineer',
+    location: 'Seattle, WA',
+    startTime: new Date(2022, 10)
+  },{
+    employer: 'Google',
+    logo: faGoogle,
+    color: 'deepskyblue',
     title: 'Software Engineer',
     location: 'Seattle, WA',
-    startTime: new Date(2020, 9)
+    startTime: new Date(2020, 9),
+    endTime: new Date(2022, 9)
   }, {
     employer: 'TechShow Solutions',
     logo: faLaptopCode,
     color: 'lightslategrey',
     title: 'Founder',
     location: 'Toronto, ON',
-    startTime: new Date(2019, 0)
+    startTime: new Date(2019, 0),
+    endTime: new Date(2020, 11)
   }, {
     employer: 'Ontario Teachers\' Pension Plan',
     logo: faAppleAlt,

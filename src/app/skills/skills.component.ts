@@ -24,16 +24,16 @@ export class SkillsComponent {
 
   skills: CloudData[] = [{
     text: 'C#',
-    weight: 15
+    weight: 13
   }, {
     text: '.NET Core',
     weight: 10
   }, {
     text: 'SQL',
-    weight: 12
+    weight: 14
   }, {
     text: 'Java',
-    weight: 9
+    weight: 18
   }, {
     text: 'TypeScript',
     weight: 7
@@ -44,11 +44,8 @@ export class SkillsComponent {
     text: 'Python',
     weight: 4
   }, {
-    text: 'GitHub',
+    text: 'Git',
     weight: 8
-  }, {
-    text: 'Jenkins',
-    weight: 7
   }, {
     text: 'Angular',
     weight: 10
@@ -60,18 +57,15 @@ export class SkillsComponent {
     weight: 4
   }, {
     text: 'Google Cloud',
-    weight: 3
+    weight: 4
   }, {
     text: 'ML',
     weight: 1
   }, {
     text: 'Engineering Management',
-    weight: 5
+    weight: 3
   }, {
     text: 'Microservices Architecture',
-    weight: 6
-  }, {
-    text: 'Microsoft SQL Server',
     weight: 8
   }, {
     text: 'Visual Studio Code',
@@ -86,19 +80,10 @@ export class SkillsComponent {
     text: 'Stripe API',
     weight: 6
   }, {
-    text: 'Boq Apps Framework',
+    text: 'Cloud Spanner',
     weight: 5
-  }, {
-    text: 'Spanner',
-    weight: 4
   }, {
     text: 'Cloud Pub/Sub',
-    weight: 4
-  }, {
-    text: 'FlumeJava',
-    weight: 5
-  }, {
-    text: 'BigQuery',
-    weight: 2
+    weight: 8
   }];
 }
