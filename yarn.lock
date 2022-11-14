@@ -5355,17 +5355,17 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-ngx-page-scroll-core@^7.0.6:
-  version "7.0.6"
-  resolved "https://registry.yarnpkg.com/ngx-page-scroll-core/-/ngx-page-scroll-core-7.0.6.tgz#07618ecc829a6e62fd30445a584e7a648745f349"
-  integrity sha512-QoWmhwOGTQd4RffvHwR/1cQHWAkPKZw/h+EeDRE/UWBB7p8P30+Xo+hSeS0CalygNIV9gUqHM3P/hD513R59iA==
+ngx-page-scroll-core@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-page-scroll-core/-/ngx-page-scroll-core-8.0.0.tgz#3db11cfb95ce1f625c255b9d7d9b8658908d13c7"
+  integrity sha512-s666ihzAZYibaXouEidClzYQBf8BlRsV6A6kAw4YppVCmpyIp+1sI0ECTa+QZqBMxyLBBmpNfGaaiS2HoeUHoQ==
   dependencies:
     tslib "^2.0.0"
 
-ngx-page-scroll@^7.0.6:
-  version "7.0.6"
-  resolved "https://registry.yarnpkg.com/ngx-page-scroll/-/ngx-page-scroll-7.0.6.tgz#f1b586a32b2ab6f02e57be154c0774acc08e7ccf"
-  integrity sha512-tuC2MrHHch+a5ciJzj9WcTwXc0UWZfie2g8aRFhwqyoxOo+SEteXEwjLKUZx47nzTbm3qYfQwcf8RiLf9VSLaw==
+ngx-page-scroll@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-page-scroll/-/ngx-page-scroll-8.0.0.tgz#3554f9d61a41ddca7472e120ce6b3baf16b4968a"
+  integrity sha512-wJFg/IUBCvTeDZtYhHGJJ1Bx/3NxvU+FUGQkz4XEN3+hYLcs+i1HN7ZSBQBeeIqNPv8Pi96jlcm+HmIqMzmq0g==
   dependencies:
     tslib "^2.0.0"
 
