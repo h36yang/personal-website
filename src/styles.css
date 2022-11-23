@@ -13,20 +13,18 @@ a.active {
 }
 
 .fixed-attachment {
-    background-attachment: fixed;
-}
-
-@media (max-width: 1024px) {
-    .fixed-attachment {
-        background-attachment: scroll;
-    }
+    background-attachment: scroll;
 }
 
 .wow {
     visibility: visible;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media screen and (min-width: 1024px) {
+    .fixed-attachment {
+        background-attachment: fixed;
+    }
+
     .wow {
         visibility: hidden;
     }

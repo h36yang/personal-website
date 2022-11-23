@@ -32,8 +32,8 @@ export class AppComponent implements OnInit {
       height: window.innerHeight + 'px'
     };
 
-    if (window.matchMedia('(prefers-reduced-motion: no-preference)').matches) {
-      // Enable wowjs if motion is not reduced
+    if (window.matchMedia('screen and (min-width: 1024px)').matches) {
+      // Enable wowjs if not on mobile device
       this.wowService.init();
     }
   }
